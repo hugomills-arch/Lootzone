@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: lootzone
+    runtime: node
+    buildCommand: "echo no build needed"
+    startCommand: "node server.js"
+    plan: free
